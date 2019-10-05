@@ -4,5 +4,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>{{ page.title | default(value=config.title) }}</title>
     <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+    <link rel="icon" href="{{ get_url(path="favicon.ico") }}">
 </head>
 {% endmacro head %}
